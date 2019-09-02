@@ -1,0 +1,17 @@
+## Pelican
+Makefile
+content
+
+## Pelican-theme
+Flex
+
+# for Icon
+Icon?
+! */*icon*
+
+## Python
+__pycache__
+*.py
+
+## Mac OS X
+.DS_Store
