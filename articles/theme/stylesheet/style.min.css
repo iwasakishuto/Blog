@@ -61,7 +61,9 @@ hr {
 }
 
 img {
-  max-width: 100%
+  max-width: 50%
+  border: 2px solid #EEE;
+  padding: 5px;
 }
 
 aside {
@@ -237,15 +239,21 @@ main article table td, main article table th {
 }
 
 th {
-    vertical-align: top;
-    border: 1px #2b2b2b solid;
-    padding: 5px 10px;
+  vertical-align: top;
+  border: 1px #2b2b2b solid;
+  padding: 5px 10px;
 }
 
 tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td {
+  vertical-align: top;
+  border: 1px #2b2b2b solid;
+  padding: 5px 10px;
 }
 
 main footer {
